@@ -1,0 +1,14 @@
+def ExOh(str)
+
+  
+  x = 0
+  o = 0
+  
+  str.each_char do |a|
+    x += 1 if a == "x"
+    o += 1 if a == "o"
+  end
+  # code goes here
+  return x == o ? "true" : "false" 
+         
+end
