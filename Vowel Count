@@ -1,0 +1,6 @@
+def VowelCount(str)
+
+  kim = str.count "aeiou"
+  return kim
+         
+end
