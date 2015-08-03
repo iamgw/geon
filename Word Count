@@ -1,0 +1,6 @@
+def WordCount(str)
+
+  kim = str.split(" ").count
+  return kim
+         
+end
