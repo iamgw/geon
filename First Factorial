@@ -1,0 +1,5 @@
+def FirstFactorial(num)
+fac = num.downto(1).inject(:*)
+  return fac 
+
+end
